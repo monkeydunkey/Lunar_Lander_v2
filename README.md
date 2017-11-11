@@ -10,7 +10,7 @@
 
 Following is the network used 
 
-![Network Architecture](https://github.com/monkeydunkey/Lunar_Lander_v2/blob/master/resources/networkArchitecture.png)
+![Network Architecture](https://github.com/monkeydunkey/Lunar_Lander_v2/blob/master/resources/neuralNetworkArchitecture.png)
 
 ## Tips and Tricks to make the network learn
 1. Use a memory (a simple list) to store randomly sample onservations of the form <S, A, S', R> where S is the State, A the action taken in that state, S' the next state and R the reward returned.
