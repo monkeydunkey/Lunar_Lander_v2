@@ -19,6 +19,6 @@ Following is the network used
 
 3. Ensure that the batch size is large enough for the network to generalize, if the batch is too small the loss will just thrash around
 
-4. Use another network to get the next state Q values. This network should not be trained but rather the values from the main network should be copied to it at regular intervals. The reason for using this is that using the same network that is being trained to get Q values while training, leads to unstability in the model
+4. Use another network with the same architecture to get the next state Q values. This network should not be trained but rather the values from the main network should be copied to it at regular intervals. The reason for using this is that using the same network that is being trained to get Q values while training, leads to unstability in the model
 
 5. Use Huber loss instead of Mean Square Error as it seems to be more stable.
