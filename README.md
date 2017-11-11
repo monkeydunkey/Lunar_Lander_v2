@@ -22,3 +22,5 @@ Following is the network used
 4. Use another network with the same architecture to get the next state Q values. This network should not be trained but rather the values from the main network should be copied to it at regular intervals. The reason for using this is that using the same network that is being trained to get Q values while training, leads to unstability in the model
 
 5. Use Huber loss instead of Mean Square Error as it seems to be more stable.
+
+6. Use Tensorboard to visualize the gradient flow and the loss, this really helps in understanding and answering the question of whether or not the model is learning anything
